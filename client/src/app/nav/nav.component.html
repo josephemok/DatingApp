@@ -27,7 +27,7 @@
         <div class="dropdown-menu mt-3" *dropdownMenu>
           <a class="drop-item">Edit Profile</a>
           <div class="dropdown-divider"></div>
-          <a class="nav-link" (click)="logout()" >Logout</a>
+          <a class="nav-link" (click)="logout()">Logout</a>
         </div>
       </div>
       <form *ngIf="(accountService.currentUser$ | async) === null" #loginForm="ngForm" class="d-flex" (ngSubmit) = "login()" autocomplete="off">
