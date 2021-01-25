@@ -8,7 +8,7 @@ import { AccountService } from 'src/app/_services/account.service';
 })
 export class NotFoundComponent implements OnInit {
 
-  constructor(public accountService: AccountService) { }
+  constructor() { }
 
   ngOnInit(): void {
   }
